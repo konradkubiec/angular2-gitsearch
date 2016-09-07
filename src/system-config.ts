@@ -19,6 +19,7 @@ const barrels: string[] = [
   '@angular/common',
   '@angular/compiler',
   '@angular/http',
+  '@angular/form',
   '@angular/router',
   '@angular/platform-browser',
   '@angular/platform-browser-dynamic',
@@ -44,6 +45,7 @@ declare var System: any;
 System.config({
   map: {
     '@angular': 'vendor/@angular',
+	'@angular/http': 'npm:@angular/http/bundles/http.umd.js',
     'rxjs': 'vendor/rxjs',
     'main': 'main.js'
   },
